@@ -3364,3 +3364,22 @@ customElements.define(
   },
   { extends: 'div' }
 );
+
+// Clear cart when user logs out
+document.addEventListener('click', function(event) {
+  const logoutLink = event.target.closest('a[href*="/account/logout"]');
+  if (logoutLink) {
+    event.preventDefault();
+    const logoutUrl = logoutLink.href;
+    const clearUrl = (window.FoxTheme && window.FoxTheme.routes && window.FoxTheme.routes.root_url
+      ? `${window.FoxTheme.routes.root_url}/cart/clear.js`
+      : '/cart/clear.js').replace('//', '/');
+
+    fetch(clearUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    }).finally(function() {
+      window.location.href = logoutUrl;
+    });
+  }
+});

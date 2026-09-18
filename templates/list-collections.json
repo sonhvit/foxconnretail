@@ -1,0 +1,1504 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs_Eqt34R": {
+      "type": "breadcrumbs",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "start",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_NrpXDN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7Bwpkz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop US Safety Gear",
+            "heading_tag": "h1",
+            "highlight_style": "none",
+            "highlight_font_style": "normal",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Bwpkz"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_cards_yE4iNg": {
+      "type": "image-cards",
+      "blocks": {
+        "image_card_qWmweQ": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Winter_Catalog_2025.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "content_alignment": "center",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "https://cdn.shopify.com/s/files/1/0553/3479/7376/files/Fall_Winter_Catalog_2025.pdf?v=1774991126",
+            "link_target_blank": true,
+            "subheading": "",
+            "subheading_style": "thick-border",
+            "heading": "'25 - '26 Fall & Winter Catalog",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "99$",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_QqHmRa": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Boot_Catalog_2025.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 26,
+            "content_position": "middle-center",
+            "content_alignment": "center",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "https://cdn.shopify.com/s/files/1/0553/3479/7376/files/Boot_Catalog_2025.pdf?v=1774991131",
+            "link_target_blank": true,
+            "subheading": "",
+            "subheading_style": "thick-border",
+            "heading": "<strong>'25 Boot Catalog</strong>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "99$",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_UU8LQw": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/Summer_Catalog_2025.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 26,
+            "content_position": "middle-center",
+            "content_alignment": "center",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "https://cdn.shopify.com/s/files/1/0553/3479/7376/files/Summer_Catalog_2025.pdf?v=1774991127",
+            "link_target_blank": true,
+            "subheading": "",
+            "subheading_style": "thick-border",
+            "heading": "'25 Summer Catalog",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "99$",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_YJgeUP": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/PPE_Catalog_2024_c4f03d29-789d-44e2-af74-507c3803aa4c.png",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 26,
+            "content_position": "middle-center",
+            "content_alignment": "center",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "https://cdn.shopify.com/s/files/1/0553/3479/7376/files/2024_PPE_Basics_Catalog.pdf?v=1774991133",
+            "link_target_blank": true,
+            "subheading": "",
+            "subheading_style": "thick-border",
+            "heading": "PPE Basics Catalog",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "99$",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_nwzzhC": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image": "shopify://shop_images/apparel_catalog.jpg",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 26,
+            "content_position": "middle-center",
+            "content_alignment": "center",
+            "content_spacing": "extra-small",
+            "content_gap": "fitted",
+            "card_link": "https://cdn.shopify.com/s/files/1/0553/3479/7376/files/23_Apparel_Catalog.pdf?v=1774991132",
+            "link_target_blank": true,
+            "subheading": "",
+            "subheading_style": "thick-border",
+            "heading": "Apparel Catalog",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": false,
+            "badge_color_scheme": "",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "99$",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_card_qWmweQ",
+        "image_card_QqHmRa",
+        "image_card_UU8LQw",
+        "image_card_YJgeUP",
+        "image_card_nwzzhC"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "VIEW OUR CATALOGS",
+        "highlight_style": "thick_underline",
+        "highlight_font_style": "normal",
+        "highlight_style_color": "#ffe093",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "description_size": "text-sm",
+        "columns_desktop": 2,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 16,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "full"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "sort": "alphabetical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "title": "LIST COLLECTION",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "card_color_scheme": "",
+        "card_style": "card",
+        "card_heading_size": "h6",
+        "card_image_ratio": "1/1",
+        "card_image_width": "full",
+        "rounded_card_image": false,
+        "card_show_border": true,
+        "collections_per_page": 30,
+        "columns_desktop": 6,
+        "column_gap": "extra-small",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "collection_list_NzWJzU": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_bceBA4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "workwear-apparel",
+            "image": "shopify://shop_images/USSG-Collections-Category-Workwear.jpg",
+            "title": "Workwear"
+          }
+        },
+        "featured_collection_KX8rJd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "protective-footwear",
+            "image": "shopify://shop_images/USSG-Collections-Category-Footwear.jpg",
+            "title": "Footwear"
+          }
+        },
+        "featured_collection_XdeCie": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fall-protection-equipment",
+            "image": "shopify://shop_images/USSG-Collections-Category-FallProtection.jpg",
+            "title": "Fall Protection"
+          }
+        },
+        "featured_collection_hm4LQF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "first-aid-kits",
+            "image": "shopify://shop_images/USSG-Collections-Category-FirstAid_Emergency.jpg",
+            "title": "First Aid & Emergency"
+          }
+        },
+        "featured_collection_KFx4XD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "work-gloves",
+            "image": "shopify://shop_images/USSG-Collections-Category-HandProtection.jpg",
+            "title": "Hand Protection"
+          }
+        },
+        "featured_collection_DNGih9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hi-vis-clothing-workwear",
+            "image": "shopify://shop_images/USSG-Collections-Category-Hi-VisClothing.jpg",
+            "title": "High Visibility Clothing"
+          }
+        },
+        "featured_collection_3RJbGN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eyewear",
+            "image": "shopify://shop_images/USSG-Collections-Category-EyeProtection.jpg",
+            "title": "Eye Protection"
+          }
+        },
+        "featured_collection_kHp7cb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-vests",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-SafetyVest.jpg",
+            "title": "Safety Vests"
+          }
+        },
+        "featured_collection_GUC7ng": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "fr-safety-vests",
+            "image": "shopify://shop_images/USSG-Collections-Category-FRClothing.jpg",
+            "title": "FR Clothing"
+          }
+        },
+        "featured_collection_6Krw34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hard-hats",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-HardHats.jpg",
+            "title": "Hard Hats"
+          }
+        },
+        "featured_collection_qdWEyx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hearing-protection",
+            "image": "shopify://shop_images/USSG-Collections-Category-HearingProtection.jpg",
+            "title": "Hearing Protection"
+          }
+        },
+        "featured_collection_Xawxpq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "respiratory-protection",
+            "image": "shopify://shop_images/USSG-Collections-Category-RespiratoryProtection.jpg",
+            "title": "Respiratory Protection"
+          }
+        },
+        "featured_collection_T4XLD8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "worksite-safety-equipment-supplies",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-WorksiteSafety.jpg",
+            "title": "Worksite Safety"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_bceBA4",
+        "featured_collection_KX8rJd",
+        "featured_collection_XdeCie",
+        "featured_collection_hm4LQF",
+        "featured_collection_KFx4XD",
+        "featured_collection_DNGih9",
+        "featured_collection_3RJbGN",
+        "featured_collection_kHp7cb",
+        "featured_collection_GUC7ng",
+        "featured_collection_6Krw34",
+        "featured_collection_qdWEyx",
+        "featured_collection_Xawxpq",
+        "featured_collection_T4XLD8"
+      ],
+      "custom_css": [
+        ".collection-card__title {font-size: 15px;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "SHOP BY CATEGORY",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "https://ussafetygear.com/collections/all",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "card",
+        "card_heading_size": "h6",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "1/1",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "card_show_border": true,
+        "mobile_layout": "vertical",
+        "columns_desktop": 6,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_qL6edt": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_QypxUr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "construction-safety-products-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Construction.jpg",
+            "title": "Construction"
+          }
+        },
+        "featured_collection_pJnffP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-supplies-for-manufacturing-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Manufacturing.jpg",
+            "title": "Manufacturing"
+          }
+        },
+        "featured_collection_G3itJw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "industrial-safety-supplies-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Industrial.jpg",
+            "title": "Industrial"
+          }
+        },
+        "featured_collection_BpRxyU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "welding-safety-supplies-ppe-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Welding.jpg",
+            "title": "Welding"
+          }
+        },
+        "featured_collection_VCBnG6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "utility-workers-safety-products-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-UtilitySafety.jpg",
+            "title": "Utility Safety"
+          }
+        },
+        "featured_collection_Dh8eJw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oil-gas-safety-gear-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Oil_Gas.jpg",
+            "title": "Oil Gas"
+          }
+        },
+        "featured_collection_pJet7X": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "warehouse-safety-equipment-supplies-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Warehouse.jpg",
+            "title": "Warehouse"
+          }
+        },
+        "featured_collection_YAprkJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "electrical-safety-gear-supplies-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Electrical.jpg",
+            "title": "Electrical"
+          }
+        },
+        "featured_collection_YzVTit": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "road-construction-safety-equipment-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Road_Construction.jpg",
+            "title": "Road Construction"
+          }
+        },
+        "featured_collection_iziPr7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mechanic-safety-equipment-supplies-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Mechanic.jpg",
+            "title": "Mechanic"
+          }
+        },
+        "featured_collection_MkFULM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "roofing-safety-equipment-supplies-new",
+            "image": "shopify://shop_images/USSG-Nav-Industries-Roofing.jpg",
+            "title": "Roofing"
+          }
+        },
+        "featured_collection_XjKATE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "emergency-response",
+            "image": "shopify://shop_images/USSG-Nav-Industries-EmergencyResponse.jpg",
+            "title": "Emergency Response"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_QypxUr",
+        "featured_collection_pJnffP",
+        "featured_collection_G3itJw",
+        "featured_collection_BpRxyU",
+        "featured_collection_VCBnG6",
+        "featured_collection_Dh8eJw",
+        "featured_collection_pJet7X",
+        "featured_collection_YAprkJ",
+        "featured_collection_YzVTit",
+        "featured_collection_iziPr7",
+        "featured_collection_MkFULM",
+        "featured_collection_XjKATE"
+      ],
+      "custom_css": [
+        ".collection-card__title {font-size: 15px;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "SHOP BY INDUSTRY",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "https://ussafetygear.com/collections/all",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "card",
+        "card_heading_size": "h6",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "1/1",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "card_show_border": true,
+        "mobile_layout": "vertical",
+        "columns_desktop": 6,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_cmWBYX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Vd9RHz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3m-safety-products",
+            "image": "shopify://shop_images/USSG-Collections-Brand-3M.jpg",
+            "title": "3M"
+          }
+        },
+        "featured_collection_ybXWtb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ariat-international",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Ariat.jpg",
+            "title": "Ariat"
+          }
+        },
+        "featured_collection_NY6Nnt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "danner-work-boots",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Danner.jpg",
+            "title": "Danner"
+          }
+        },
+        "featured_collection_U3bzpX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dupont",
+            "image": "shopify://shop_images/USSG-Collections-Brand-DuPont.jpg",
+            "title": "DuPont"
+          }
+        },
+        "featured_collection_JndfEr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "french-creek",
+            "image": "shopify://shop_images/USSG-Collections-Brand-FrenchCreek.jpg",
+            "title": "French Creek"
+          }
+        },
+        "featured_collection_zBtLNb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gateway-safety",
+            "image": "shopify://shop_images/USSG-Collections-Brand-GatewaySafety.jpg",
+            "title": "Gateway Safety"
+          }
+        },
+        "featured_collection_MRhmGz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "honeywell",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Honeywell.jpg",
+            "title": "Honeywell"
+          }
+        },
+        "featured_collection_zkMdmk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liberty-safety",
+            "image": "shopify://shop_images/USSG-Collections-Brand-LibertySafety.jpg",
+            "title": "Liberty Safety"
+          }
+        },
+        "featured_collection_dJPRrq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "occunomix",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Occunomix.jpg",
+            "title": "Occunomix"
+          }
+        },
+        "featured_collection_6f3ENf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pyramex",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Pyramex.jpg",
+            "title": "Pyramex"
+          }
+        },
+        "featured_collection_peaHaF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "studson",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Studson.jpg",
+            "title": "Studson"
+          }
+        },
+        "featured_collection_Mxh469": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "timberland",
+            "image": "shopify://shop_images/USSG-Collections-Brand-Timberland.jpg",
+            "title": "Timberland"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Vd9RHz",
+        "featured_collection_ybXWtb",
+        "featured_collection_NY6Nnt",
+        "featured_collection_U3bzpX",
+        "featured_collection_JndfEr",
+        "featured_collection_zBtLNb",
+        "featured_collection_MRhmGz",
+        "featured_collection_zkMdmk",
+        "featured_collection_dJPRrq",
+        "featured_collection_6f3ENf",
+        "featured_collection_peaHaF",
+        "featured_collection_Mxh469"
+      ],
+      "custom_css": [
+        ".collection-card__title {font-size: 15px;}",
+        ".collection-list__inner img {object-fit: contain !important;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "SHOP BY BRAND",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "https://ussafetygear.com/collections/all",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "card",
+        "card_heading_size": "h6",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "1/1",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "card_show_border": true,
+        "mobile_layout": "vertical",
+        "columns_desktop": 6,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "promotion_banner_8FWhnd": {
+      "type": "promotion-banner",
+      "blocks": {
+        "subheading_XUNNtC": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Last Chance",
+            "subheading_icon": "none"
+          }
+        },
+        "timer_fQnrcx": {
+          "type": "timer",
+          "settings": {
+            "type": "evergreen",
+            "number_size": "h1",
+            "duration": "every_month",
+            "time": "2025/06/28 03:45 PM"
+          }
+        },
+        "text_4r64VC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save on trendy clothing, best sellers + more</p>",
+            "text_color": "base-text"
+          }
+        },
+        "code_QHfAXq": {
+          "type": "code",
+          "settings": {
+            "discount_code": "FLASH30",
+            "button_label": "Copy Code: FLASH30",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XUNNtC",
+        "timer_fQnrcx",
+        "text_4r64VC",
+        "code_QHfAXq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text__text {max-width: 22rem;}"
+      ],
+      "settings": {
+        "ads_id": "",
+        "container": "fixed",
+        "color_scheme": "scheme-3",
+        "layout": "horizontal",
+        "content_alignment": "center",
+        "content_alignment_mobile": "center",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_jPWYQD": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_kfyFnm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "New Arrivals",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_ekKcnR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Hot Items",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_8ziHc6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Best Sellers",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kfyFnm",
+        "collection_ekKcnR",
+        "collection_8ziHc6"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "The Winter Lineup",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 10,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": false,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": false,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_content_GRAteK": {
+      "type": "custom-content",
+      "blocks": {
+        "image_card_p46rfA": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "content_spacing": "small",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "warm greetings",
+            "subheading_style": "",
+            "heading": "Fleece Favorites",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": true,
+            "badge_color_scheme": "scheme-8",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "30%",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_adeKLe": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "content_spacing": "small",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "holiday ‘24 collection",
+            "subheading_style": "",
+            "heading": "Lived & Loved",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": true,
+            "badge_color_scheme": "scheme-8",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "30%",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        },
+        "image_card_9eaYHG": {
+          "type": "image_card",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "content_position": "split-bottom-button",
+            "content_alignment": "left",
+            "content_spacing": "small",
+            "content_gap": "fitted",
+            "card_link": "",
+            "subheading": "holiday ‘24 collection",
+            "subheading_style": "",
+            "heading": "Lived & Loved",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h1",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "show_badge": true,
+            "badge_color_scheme": "scheme-8",
+            "badge_shape": "circle",
+            "badge_position": "top-right",
+            "badge_subtext": "Save",
+            "badge_text": "30%",
+            "color_scheme_mobile": "scheme-inverse",
+            "show_text_below": false,
+            "content_alignment_mobile": "left",
+            "width": "33%",
+            "alignment": "center",
+            "block_custom_class": "",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_card_p46rfA",
+        "image_card_adeKLe",
+        "image_card_9eaYHG"
+      ],
+      "disabled": true,
+      "settings": {
+        "ads_id": "",
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "column_gap": "2xs",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_cards_idHrAj": {
+      "type": "collection-cards",
+      "blocks": {
+        "collection_EyznYc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": ""
+          }
+        },
+        "collection_bTCHFP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": ""
+          }
+        },
+        "collection_Fw4rGR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": "Hats"
+          }
+        },
+        "collection_KNqDEV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": ""
+          }
+        },
+        "collection_HGEKPf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": ""
+          }
+        },
+        "collection_pwgi3p": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": ""
+          }
+        },
+        "collection_GhjrBi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product_list": [],
+            "title": "Pants"
+          }
+        }
+      },
+      "block_order": [
+        "collection_EyznYc",
+        "collection_bTCHFP",
+        "collection_Fw4rGR",
+        "collection_KNqDEV",
+        "collection_HGEKPf",
+        "collection_pwgi3p",
+        "collection_GhjrBi"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Shop By Campaign",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-sm",
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "card_color_scheme": "scheme-12",
+        "image_ratio": "3/4",
+        "show_product_count": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_mGby8X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WTnT4q": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Mason",
+            "heading_tag": "h2",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_E3qLUr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From classic cotton and wool to advanced performance fabrics like spandex blends and moisture-wicking synthetics, each material brings its own advantages—softness, durability, breathability, or stretch. These choices shape not just how clothing feels, but how it functions in daily life.<br/></p><p>Selecting apparel goes beyond chasing trends; it’s about curating a wardrobe that reflects your personality while balancing comfort, practicality, and style. Minimalist pieces offer clean elegance, while retro prints, bold patterns, or textured knits speak to a more expressive taste. Whether you’re drawn to timeless staples or eye-catching statements, understanding fabric and form helps you choose clothing, hats, and socks that match your lifestyle and individuality.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "5-lines",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WTnT4q",
+        "text_E3qLUr"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-11",
+        "use_color_scheme_in_container": true,
+        "content_spacing": "standard",
+        "content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "buttons_with_icon_T4hV9C": {
+      "type": "buttons-with-icon",
+      "blocks": {
+        "button_item_4VEFYE": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Eco knit Cardigan",
+            "button_link": "",
+            "icon": "none"
+          }
+        },
+        "button_item_pQgVPP": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Cashmere Sweater",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_ihgiKk": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Dresses & Skirts",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_Gk4RJd": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Cold Weather",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_AQLJtE": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Cold Weather",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_jrmHmw": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Accessories",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_7qNBnx": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Fleece Jackets",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_hi7hPU": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Shorts",
+            "button_link": "",
+            "icon": "check"
+          }
+        },
+        "button_item_xVibpH": {
+          "type": "button_item",
+          "settings": {
+            "button_label": "Graphic Tees",
+            "button_link": "",
+            "icon": "check"
+          }
+        }
+      },
+      "block_order": [
+        "button_item_4VEFYE",
+        "button_item_pQgVPP",
+        "button_item_ihgiKk",
+        "button_item_Gk4RJd",
+        "button_item_AQLJtE",
+        "button_item_jrmHmw",
+        "button_item_7qNBnx",
+        "button_item_hi7hPU",
+        "button_item_xVibpH"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-12",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Explore Popular Search",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "item_alignment": "left",
+        "item_button_style": "btn--icon",
+        "item_button_font": "button",
+        "enable_slider": true,
+        "swipe_on_mobile": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "scrolling_promotion_xUVnGr": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_AVXdcR": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Fast Delivery",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_9iXhEj": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "30 Days Free Returns",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_mKrceG": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Secure Payment",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_36qhNV": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Fast Delivery",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_VebcNw": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "30 Days Free Returns",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_BgMmVc": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Secure Payment",
+            "text_size": "h4",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_AVXdcR",
+        "text_9iXhEj",
+        "text_mKrceG",
+        "text_36qhNV",
+        "text_VebcNw",
+        "text_BgMmVc"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.2,
+        "h_spacing": 80,
+        "show_section_divider": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs_Eqt34R",
+    "rich_text_NrpXDN",
+    "image_cards_yE4iNg",
+    "main",
+    "collection_list_NzWJzU",
+    "collection_list_qL6edt",
+    "collection_list_cmWBYX",
+    "promotion_banner_8FWhnd",
+    "featured_collection_jPWYQD",
+    "custom_content_GRAteK",
+    "collection_cards_idHrAj",
+    "rich_text_mGby8X",
+    "buttons_with_icon_T4hV9C",
+    "scrolling_promotion_xUVnGr"
+  ]
+}

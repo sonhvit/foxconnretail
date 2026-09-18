@@ -1,0 +1,294 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "spacer_XF7zh3": {
+      "type": "spacer",
+      "name": "t:sections.spacer.name",
+      "settings": {
+        "color_scheme": "",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12
+      }
+    },
+    "slideshow_gB6gD9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QVXtV6": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-6",
+            "background": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "background_mobile": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Contemporary Grace",
+            "title": "Dining & Kitchen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Collection",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "slide_wNKHrN": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-6",
+            "background": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "background_mobile": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Contemporary Grace",
+            "title": "Dining & Kitchen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Collection",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "slide_PA6KmU": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-6",
+            "background": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "background_mobile": "shopify://shop_images/Keen-Spring-Arrivals-Carousel-Banner_smaller.jpg",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Contemporary Grace",
+            "title": "Dining & Kitchen",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Collection",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_QVXtV6",
+        "slide_wNKHrN",
+        "slide_PA6KmU"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "fixed",
+        "slide_height": "xsmall",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "slide_height_mobile": "medium",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_NzWJzU": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_hm4LQF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "workwear",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-Workwear_Apparel.jpg",
+            "title": "Workwear"
+          }
+        },
+        "featured_collection_KX8rJd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear",
+            "image": "shopify://shop_images/USSG-Collections-Category-Footwear.jpg",
+            "title": "Footwear"
+          }
+        },
+        "featured_collection_qdWEyx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fall-protection",
+            "image": "shopify://shop_images/USSG-Collections-Category-FallProtection.jpg",
+            "title": "Fall Protection"
+          }
+        },
+        "featured_collection_XdeCie": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "first-aid-emergency",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-FirstAid.jpg",
+            "title": "First Aid &Emergency"
+          }
+        },
+        "featured_collection_KFx4XD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hand-protection",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-WorkGloves.jpg",
+            "title": "Hand Protection"
+          }
+        },
+        "featured_collection_DNGih9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hi-vis-clothing",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-Hi-VisClothing.jpg",
+            "title": "Hi-Vis Clothing"
+          }
+        },
+        "featured_collection_3RJbGN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eye-protection",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-Eye_FaceProtection.jpg",
+            "title": "Eye protection"
+          }
+        },
+        "featured_collection_T4XLD8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-vests",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-SafetyVest.jpg",
+            "title": "Safety Vests"
+          }
+        },
+        "featured_collection_bceBA4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hard-hats",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-HardHats.jpg",
+            "title": "Hard Hats"
+          }
+        },
+        "featured_collection_GUC7ng": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hearing-protection",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-HearingProtection.jpg",
+            "title": "Hearing Protection"
+          }
+        },
+        "featured_collection_6Krw34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "respiratory-protection",
+            "image": "shopify://shop_images/USSG-Collections-Category-RespiratoryProtection.jpg",
+            "title": "Respiratory Protection"
+          }
+        },
+        "featured_collection_Xawxpq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "worksite-safety",
+            "image": "shopify://shop_images/USSG-Home-CollectionList-WorksiteSafety.jpg",
+            "title": "Worksite Safety"
+          }
+        },
+        "featured_collection_idQmiz": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "janitorial-cleaning-supplies",
+            "title": "Cleaning & Janitorial Supplies"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_hm4LQF",
+        "featured_collection_KX8rJd",
+        "featured_collection_qdWEyx",
+        "featured_collection_XdeCie",
+        "featured_collection_KFx4XD",
+        "featured_collection_DNGih9",
+        "featured_collection_3RJbGN",
+        "featured_collection_T4XLD8",
+        "featured_collection_bceBA4",
+        "featured_collection_GUC7ng",
+        "featured_collection_6Krw34",
+        "featured_collection_Xawxpq",
+        "featured_collection_idQmiz"
+      ],
+      "custom_css": [
+        ".collection-card__title {font-size: 15px;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "https://ussafetygear.com/collections/all",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "card",
+        "card_heading_size": "h6",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "1/1",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "card_show_border": true,
+        "mobile_layout": "vertical",
+        "columns_desktop": 6,
+        "column_gap": "2xs",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 46,
+        "padding_bottom": 46,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "spacer_XF7zh3",
+    "slideshow_gB6gD9",
+    "collection_list_NzWJzU"
+  ]
+}

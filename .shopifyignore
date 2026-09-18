@@ -1,0 +1,6 @@
+config/settings_data.json
+sections/*.json
+templates/*.json
+templates/**/*.json
+locales/*.json
+locales/*.schema.json

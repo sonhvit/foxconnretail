@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "custom_liquid_8Lkbby": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\">!function(e,t,n){function a(){var e=t.getElementsByTagName(\"script\")[0],n=t.createElement(\"script\");n.type=\"text/javascript\",n.async=!0,n.src=\"https://beacon-v2.helpscout.net\",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],\"complete\"===t.readyState)return a();e.attachEvent?e.attachEvent(\"onload\",a):e.addEventListener(\"load\",a,!1)}(window,document,window.Beacon||function(){});</script>\n<script type=\"text/javascript\">window.Beacon('init', '285cc128-ac4d-4476-871c-e7435e0c8080')</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_cVfYNB": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "layout": "horizontal",
+        "subheading": "",
+        "heading": "Sign up for promotion, offers & <em>save 15%</em>",
+        "highlight_style": "hand_drawn_circle",
+        "highlight_font_style": "normal",
+        "highlight_style_color": "#c79b36",
+        "highlight_text_color": "#c79b36",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "alignment": "left",
+        "alignment_mobile": "center",
+        "width_settings": "custom",
+        "form_width": 565,
+        "newsletter_term": "<p>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use</a> & <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
+        "newsletter_term_size": "text-base",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "multicolumn_icon_rTKNUF": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_PnJ3NJ": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<a href=\"https://ussafetygear.com/pages/contact\" title=\"CONTACT SUPPORT\">CONTACT SUPPORT</a>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_tag": "h3",
+            "heading_font": "heading",
+            "text": "<p><a href=\"https://ussafetygear.com/pages/contact\" title=\"Have questions? info@ussafetygear.com\">Have questions? <span style=\"text-decoration:underline\">info@ussafetygear.com</span></a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "https://ussafetygear.com/pages/contac",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_xNjRtG": {
+          "type": "column",
+          "settings": {
+            "icon": "phone",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<a href=\"tel:(800) 686-1459\" title=\"tel:(800) 686-1459\">CALL US</a>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_tag": "h3",
+            "heading_font": "heading",
+            "text": "<p><a href=\"tel:(800) 686-1459\" title=\"tel:(800) 686-1459\">(800) 686-1459</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_69fN8n": {
+          "type": "column",
+          "settings": {
+            "icon": "paperplane",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<a href=\"https://ussafetygear.com/pages/shipping-returns\" title=\"https://ussafetygear.com/pages/shipping-returns\">SHIPPING & RETURNS</a>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "text-base",
+            "heading_tag": "h3",
+            "heading_font": "heading",
+            "text": "<p><a href=\"https://ussafetygear.com/pages/shipping-returns\" title=\"https://ussafetygear.com/pages/shipping-returns\">Free shipping over $150</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "https://ussafetygear.com/pages/shipping-returns",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_GkaE94": {
+          "type": "column",
+          "settings": {
+            "icon": "map-pin",
+            "max_width": 28,
+            "max_width_mb": 28,
+            "title": "<a href=\"https://ussafetygear.com/pages/store-locator \" title=\"https://ussafetygear.com/pages/store-locator \">STORE LOCATIONS</a>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_tag": "h3",
+            "heading_font": "heading",
+            "text": "<p><a href=\"https://ussafetygear.com/pages/store-locator \" title=\"https://ussafetygear.com/pages/store-locator \">Find a retail location near you</a></p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "https://ussafetygear.com/pages/store-locator",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_PnJ3NJ",
+        "column_xNjRtG",
+        "column_69fN8n",
+        "column_GkaE94"
+      ],
+      "custom_css": [
+        ".rich-text__text {--text-margin-top: 0.4rem;}",
+        ".multicolumn-card__info a {text-decoration: none;}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-4",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "enable_sticky": false,
+        "card_color_scheme": "scheme-4",
+        "content_alignment": "left",
+        "image_position": "left",
+        "icon_color": "#113534",
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "show_divider_col": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 56,
+        "padding_bottom": 32
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_text_dE6TcX": {
+          "type": "image_text",
+          "settings": {
+            "block_width": 55,
+            "layout": "image_left",
+            "heading": "",
+            "heading_size": "h4",
+            "image": "shopify://shop_images/logo-company.webp",
+            "image_width": 180,
+            "image_width_mobile": 120,
+            "overlay_opacity": 70,
+            "text": "<p><strong>Phone: </strong><a href=\"tel:(800) 686-1459\" title=\"tel:(800) 686-1459\">(800) 686-1459</a></p><p><strong>Email: </strong><a href=\"mailto:info@ussafetygear.com\" title=\"mailto:info@ussafetygear.com\">info@ussafetygear.com</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "color_scheme": "scheme-inverse",
+            "content_alignment": "left",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_6cjHfA": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "block_width": 20,
+            "heading": "Shop Safety Products",
+            "heading_size": "h6",
+            "menu": "",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_DEKGYP": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "block_width": 20,
+            "heading": "Featured Brands",
+            "heading_size": "h6",
+            "menu": "",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_4eCrBB": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "block_width": 15,
+            "heading": "Collection",
+            "heading_size": "h6",
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        }
+      },
+      "block_order": [
+        "image_text_dE6TcX",
+        "menu_6cjHfA",
+        "menu_DEKGYP",
+        "menu_4eCrBB"
+      ],
+      "custom_css": [
+        ".footer-block__heading {max-width: 25rem;}",
+        "shop-follow-button {display: none;}",
+        "@media (max-width: 767.98px) {.footer-block__heading {max-width: 18rem; }}"
+      ],
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-4",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "social_button_style": "btn--icon",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "footer_layout": "standard",
+        "footer_bottom_menu": "foooter-menu-right",
+        "show_sperator_line": false,
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "mobile_sticky_bar_aYhgJK": {
+      "type": "mobile-sticky-bar",
+      "blocks": {
+        "home_AP8mmy": {
+          "type": "home",
+          "settings": {
+            "text": "Home"
+          }
+        },
+        "cart_gnnwxQ": {
+          "type": "cart",
+          "settings": {
+            "text": "Cart"
+          }
+        },
+        "products_eYYkE8": {
+          "type": "products",
+          "settings": {
+            "text": "Products",
+            "collection": ""
+          }
+        },
+        "link_mJ6QMc": {
+          "type": "link",
+          "settings": {
+            "text": "About",
+            "url": "",
+            "icon": "map-pin"
+          }
+        }
+      },
+      "block_order": [
+        "home_AP8mmy",
+        "cart_gnnwxQ",
+        "products_eYYkE8",
+        "link_mJ6QMc"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_bar": true,
+        "show_text": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_8Lkbby",
+    "newsletter_cVfYNB",
+    "multicolumn_icon_rTKNUF",
+    "footer",
+    "mobile_sticky_bar_aYhgJK"
+  ]
+}

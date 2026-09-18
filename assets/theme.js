@@ -1144,7 +1144,15 @@ class CartCount extends HTMLElement {
       this.innerText = count;
     }
 
-    this.hidden = this.itemCount === 0 || event.cart.item_count === 0;
+    const isHidden = this.itemCount === 0 || event.cart.item_count === 0;
+    this.hidden = isHidden;
+    if (isHidden) {
+      this.setAttribute('hidden', '');
+      this.style.setProperty('display', 'none', 'important');
+    } else {
+      this.removeAttribute('hidden');
+      this.style.removeProperty('display');
+    }
 
     const method = this.itemCount === 0 ? 'remove' : 'add';
     document.documentElement.classList[method]('cart-has-items');
@@ -3365,21 +3373,133 @@ customElements.define(
   { extends: 'div' }
 );
 
-// Clear cart when user logs out
-document.addEventListener('click', function(event) {
-  const logoutLink = event.target.closest('a[href*="/account/logout"]');
-  if (logoutLink) {
-    event.preventDefault();
-    const logoutUrl = logoutLink.href;
-    const clearUrl = (window.FoxTheme && window.FoxTheme.routes && window.FoxTheme.routes.root_url
-      ? `${window.FoxTheme.routes.root_url}/cart/clear.js`
-      : '/cart/clear.js').replace('//', '/');
+// Clear cart on customer logout (both direct link click & auto-detect after Shopify sign out)
+(function() {
+  const STORAGE_KEY = 'foxconn_customer_logged_in';
+  const isLoggedIn = Boolean(window.FoxTheme && window.FoxTheme.customerLoggedIn);
 
-    fetch(clearUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' }
-    }).finally(function() {
-      window.location.href = logoutUrl;
+  const getClearUrl = () => {
+    return (
+      (window.FoxTheme && window.FoxTheme.routes && window.FoxTheme.routes.cart_clear_url) ||
+      (window.FoxTheme && window.FoxTheme.routes && window.FoxTheme.routes.root_url
+        ? `${window.FoxTheme.routes.root_url}/cart/clear.js`
+        : '/cart/clear.js')
+    ).replace('//', '/');
+  };
+
+  const updateCartUiEmpty = (cart) => {
+    if (window.location.pathname.includes('/cart')) {
+      window.location.reload();
+      return;
+    }
+
+    document.querySelectorAll('cart-count, .cart-count').forEach((el) => {
+      el.textContent = '0';
+      el.hidden = true;
+      el.setAttribute('hidden', '');
+      el.style.setProperty('display', 'none', 'important');
     });
+    document.documentElement.classList.remove('cart-has-items');
+
+    const cartDrawer = document.querySelector('cart-drawer');
+    if (cartDrawer && typeof cartDrawer.hide === 'function' && cartDrawer.hasAttribute('open')) {
+      cartDrawer.hide();
+    }
+
+    if (window.FoxTheme && window.FoxTheme.pubsub) {
+      window.FoxTheme.pubsub.publish(window.FoxTheme.pubsub.PUB_SUB_EVENTS.cartUpdate, { cart: cart || { item_count: 0 } });
+    }
+
+    document.dispatchEvent(new CustomEvent('cart:refresh', { detail: { open: false } }));
+  };
+
+  // 1. Check if user just signed out from Shopify New Customer Accounts
+  if (isLoggedIn) {
+    try {
+      localStorage.setItem(STORAGE_KEY, 'true');
+    } catch (e) {}
+  } else {
+    let wasLoggedIn = false;
+    try {
+      wasLoggedIn = localStorage.getItem(STORAGE_KEY) === 'true';
+    } catch (e) {}
+
+    if (wasLoggedIn) {
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch (e) {}
+
+      // Immediately clear UI without waiting for network
+      updateCartUiEmpty({ item_count: 0 });
+
+      fetch(getClearUrl(), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      })
+        .then((res) => res.json())
+        .then((cart) => {
+          updateCartUiEmpty(cart);
+        })
+        .catch((err) => {
+          console.error('Failed to clear cart after logout:', err);
+        })
+        .finally(() => {
+          document.documentElement.classList.remove('hide-cart-bubble-on-logout');
+        });
+    }
   }
-});
+
+  // 2. Intercept direct click on any logout link
+  document.addEventListener('click', function(event) {
+    const logoutLink = event.target.closest('a[href*="/account/logout"]');
+    if (logoutLink) {
+      event.preventDefault();
+      const logoutUrl = logoutLink.href;
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch (e) {}
+
+      updateCartUiEmpty({ item_count: 0 });
+
+      fetch(getClearUrl(), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      }).finally(function() {
+        window.location.href = logoutUrl;
+      });
+    }
+  });
+
+  // 3. Reload page if loaded from browser Back-Forward Cache (BFCache)
+  window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+      window.location.reload();
+    }
+  });
+
+  // 4. When cart has no products, link to /cart page instead of opening minicart drawer
+  document.addEventListener(
+    'click',
+    function(event) {
+      const cartButton = event.target.closest('.cart-drawer-button, [aria-controls="CartDrawer"]');
+      if (cartButton) {
+        const hasItems = document.documentElement.classList.contains('cart-has-items');
+        const countEl = document.querySelector('cart-count:not([hidden])');
+        const count = countEl ? parseInt(countEl.textContent.trim()) || 0 : 0;
+
+        if (!hasItems || count === 0) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+          const cartUrl =
+            cartButton.getAttribute('href') ||
+            (window.FoxTheme && window.FoxTheme.routes && window.FoxTheme.routes.cart_url) ||
+            '/cart';
+          window.location.href = cartUrl;
+        }
+      }
+    },
+    true
+  );
+})();
+
+

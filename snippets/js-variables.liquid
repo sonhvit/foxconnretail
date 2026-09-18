@@ -8,9 +8,16 @@
   window.FoxTheme = window.FoxTheme || {};
   document.documentElement.classList.replace('no-js', 'js');
   window.shopUrl = '{{ request.origin }}';
+  window.FoxTheme.customerLoggedIn = {% if customer %}true{% else %}false{% endif %};
+  try {
+    if (!window.FoxTheme.customerLoggedIn && localStorage.getItem('foxconn_customer_logged_in') === 'true') {
+      document.documentElement.classList.add('hide-cart-bubble-on-logout');
+    }
+  } catch (e) {}
   window.FoxTheme.routes = {
     cart_add_url: '{{ routes.cart_add_url }}',
     cart_change_url: '{{ routes.cart_change_url }}',
+    cart_clear_url: '{{ routes.cart_clear_url }}',
     cart_update_url: '{{ routes.cart_update_url }}',
     cart_url: '{{ routes.cart_url }}',
     shop_url: '{{ shop.url }}',
@@ -74,3 +81,10 @@
     countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
   };
 </script>
+<style>
+  html.hide-cart-bubble-on-logout cart-count,
+  html.hide-cart-bubble-on-logout .cart-count {
+    display: none !important;
+  }
+</style>
+
